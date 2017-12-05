@@ -8,8 +8,8 @@ For text-to-speach, we're using <a href="https://pypi.python.org/pypi/gTTS">Goog
 pip install gTTS
 ``` 
 
-This example was initially created to demonstrate converting EarthArXiv preprints to speech. As such, the code currently focuses exclusively on PDF to Text to Speech as PDF is what is returned from the EarthArXiv API. The PDF to text I use pdfminer, which has an excellent tutorial <a href="
-http://stanford.edu/~mgorkove/cgi-bin/rpython_tutorials/Using%20Python%20to%20Convert%20PDFs%20to%20Text%20Files.php">here</a>. Note that pdfminer is only available for python2.
+This example was initially created to demonstrate converting EarthArXiv preprints to speech. As such, the code currently focuses exclusively on PDF to Text to Speech as PDF is what is returned from the EarthArXiv API. The PDF to text I use pdfminer, which has an excellent tutorial 
+<a href="http://stanford.edu/~mgorkove/cgi-bin/rpython_tutorials/Using%20Python%20to%20Convert%20PDFs%20to%20Text%20Files.php">here</a>. Note that pdfminer is only available for python2.
 
 I use the <a href="https://github.com/eartharxiv/API">EarthArXiv Python API code</a> to retrieve a preprint in PDF format. I then use pdf2mp3.py in this repository to convert the PDF to mp3.
 
